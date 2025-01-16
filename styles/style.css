@@ -1,0 +1,261 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav title{
+     font-weight: bold;
+     font-size: 32px;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul {
+  display: flex;
+}
+/*shared style*/
+.text-primary{
+  color: #0e0e0e;;
+}
+.btn-primary{
+  color:#006A50;
+  font-weight: 600 ;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.btn-secondary {
+  background-color: #006A50;
+  font-weight: 600;
+  color: rgb(255, 250, 250);
+  border-radius: 8px;
+  font-size: 18px;
+  border: none;
+}
+/*banner styles*/
+.banner{
+  display: flex;
+  background-color:#C6E4D6 ;
+  justify-content: space-between;
+  margin: 30px 200px 117px 230px;
+  padding: 80px 70px 80px 70px;
+  border-radius: 24px;
+}
+.second-banner{
+  margin:  0 200px 0 230px;
+}
+.section-title{
+  color: #0e0e0e;
+  font-weight: bold;
+  font-size: 40px;
+}
+.banner-greetings {
+  color: green ;
+  font-size: 24px;
+  font-weight: 500;
+
+}
+.banner-profile-pic{
+  width: 470px;
+
+}
+.banner-content{
+  max-width: 580px;
+}
+/*items section styles*/
+.items-container{
+  display: flex;
+  gap: 24px;
+}
+.item{
+  padding: 0px 30px 10px 30px ;
+  border-radius: 16px;
+  box-shadow:0px 4px 4px 0px rgba(14, 14, 14, 0.15)  ;
+}
+.box1 {
+  background-color: #b5cffb; 
+}
+
+.box2 {
+  background-color: #C6E4D6; 
+}
+
+.box3 {
+  background-color: #F7EBCF; 
+}
+
+/* Common button styles */
+button {
+  padding: 11px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff; /* Text color */
+}
+
+/* Button color for the first box */
+.btn-color1 {
+  background-color: #5490F5; /* Blue */
+}
+
+
+
+/* Button color for the second box */
+.btn-color2 {
+  background-color: #09A15C; /* Green */
+}
+
+
+
+/* Button color for the third box */
+.btn-color3 {
+  background-color: #FFC239; 
+}
+
+
+.banner1 {
+  display: flex;
+  background-color: #FFFFFF;
+  justify-content: space-between;
+  margin: 30px 200px 15px 230px;
+  padding: 80px 70px 80px 70px;
+  border-radius: 24px;
+  border: 3px solid #E5E5E5;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.right-side {
+  flex: 2; 
+  text-align: left;
+}
+
+.image-custom {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+  object-fit: cover; 
+}
+
+/* .banner-discription {
+  margin-top: 20px;
+  font-size: 16px;
+} */
+
+.banner4 {
+  display: flex;
+  flex-direction: column; 
+  background-color: #C6E4D6;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 200px 15px 230px;
+  padding: 80px 70px 80px 70px;
+  border-radius: 24px;
+  border: 3px solid #E5E5E5;
+}
+
+.banner4-content {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.banner4-description {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.banner4-form {
+  position: relative; 
+}
+
+.banner4-textbox {
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 0; 
+  display: inline-block; 
+}
+
+.subscribe-button {
+  background-color: #006A50;
+  color: white;
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  position: absolute;
+  right: 0; 
+  top: 0; 
+}
+.banner5 {
+  display: flex;
+  flex-direction: column; 
+  background-color: #fcfdfd;
+  margin: 30px 200px 15px 230px;
+  padding: 80px 70px 80px 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+  margin-bottom: 20px;
+}
+
+.box5 {
+  width: 260px;
+  height: 130px;
+  background-color: rgba(63, 159, 36, 0); 
+  color: #0b0b0b; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold; 
+  border-radius: 8px;
+  border: 3px solid #fdfffe; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin-right: 15px; 
+}
+
+
+
+
+.total-textbox {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+.taka-color{
+  background-color: #FFC239;
+}
+
+
+
+
+
